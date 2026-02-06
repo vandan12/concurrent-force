@@ -1,0 +1,40 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background: #f2f6f9;
+}
+
+input, button {
+    padding: 6px;
+    margin: 5px;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 85%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 6px;
+}
+
+th {
+    background: #dbeafe;
+}
+
+#steps {
+    width: 85%;
+    margin: 10px auto;
+    text-align: left;
+    background: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+canvas {
+    background: white;
+    border: 2px solid black;
+    margin-top: 20px;
+}
