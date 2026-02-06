@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Coplanar Concurrent Forces</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Coplanar Concurrent Forces</h1>
+
+<div class="input-box">
+    <input type="number" id="force" placeholder="Force (N)">
+    <input type="number" id="angle" placeholder="Angle (° from +X)">
+    <button onclick="addForce()">Add Force</button>
+    <button onclick="clearAll()">Clear</button>
+</div>
+
+<h2>Force Table</h2>
+<table id="forceTable">
+<tr>
+    <th>No</th>
+    <th>Force (N)</th>
+    <th>Angle (°)</th>
+    <th>Fx (N)</th>
+    <th>Fy (N)</th>
+</tr>
+</table>
+
+<h2>Step-by-Step Calculation</h2>
+<div id="steps"></div>
+
+<h2 id="result"></h2>
+
+<canvas id="canvas" width="600" height="600"></canvas>
+
+<script src="script.js"></script>
+</body>
+</html>
